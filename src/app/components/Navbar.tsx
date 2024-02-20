@@ -3,7 +3,6 @@ import Link from "next/link";
 
 const Navbar: React.FC = () => {
   return (
-    <div classname="w-full h-[80px] bg-white border-b">
     <nav className="bg-gray-800 p-4">
       <div className="container mx-auto">
         <div className="flex items-center justify-between">

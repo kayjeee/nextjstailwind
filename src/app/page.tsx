@@ -5,7 +5,7 @@ import * as Realm from "realm-web";
 import { useApp } from "./components/useApp";
 import Login from "./components/Login";
 import Signup from "./components/Signup";
-
+// import Navbar from "./components/Navbar";
 
 export default function Page() {
   const app = useApp();
@@ -18,7 +18,7 @@ export default function Page() {
 
   return (
     <div>
- 
+   
       <Login />
       <Signup />
       {/* Your existing content */}
